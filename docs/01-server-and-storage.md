@@ -19,8 +19,6 @@ Both drives are old hard drives I repurposed. One was already an external drive.
 
 ## Samba
 
-Both mount points are shared read/write as `disk1` and `disk2`. The relevant share definitions are in [`examples/smb.conf.example`](../examples/smb.conf.example).
-
 **Connect from a Mac:** in Finder choose Go → Connect to Server, enter `smb://<server-ip>`, and sign in with the Samba user. Both shares appear:
 
 ![disk1 and disk2 mounted in Finder](../images/samba-shares-mac.png)
