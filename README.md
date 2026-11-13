@@ -2,6 +2,8 @@
 
 My Ubuntu home server on an old i5 laptop: Samba storage and family iPhone backups, Jellyfin movie streaming, and an Apple Home smart home bridged with Homebridge and Scrypted (lights, locks, six cameras, a garage door, and a DIY car remote start).
 
+![Architecture of the home server and smart home](images/architecture.png)
+
 ## What it does
 
 - **Storage and backups.** Two repurposed hard drives (4 TB and 2 TB) are shared over Samba. The 4 TB drive holds documents, photos, videos, movies and the family's iPhone backups. The 2 TB drive holds a second copy of the documents, photos and videos.
