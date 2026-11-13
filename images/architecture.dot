@@ -38,6 +38,9 @@ digraph home {
   media -> jelly [label="stream"];
   jelly -> disk1 [label="Movies library"];
 
+  // disk1 sits below disk2 in the same column, with the manual copy line between them
+  disk1 -> disk2 [style=dashed, xlabel="manual copy  ", constraint=false];
+
   iphone -> homepod [dir=both, label="HomeKit"];
   iphone -> hb  [label="HomeKit", style=dashed];
   iphone -> scr [label="HomeKit", style=dashed];

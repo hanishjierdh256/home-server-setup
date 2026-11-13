@@ -4,6 +4,18 @@ My Ubuntu home server on an old i5 laptop: Samba storage and family iPhone backu
 
 ![Architecture of the home server and smart home](images/architecture.png)
 
+Instead of investing in dedicated NAS hardware or replacing existing smart home devices, I built a centralized system using open-source software, repurposed storage, and third-party integrations.
+
+# Project goals
+Repurpose existing hardware rather than purchasing dedicated server equipment.
+Centralize household storage and preserve important personal data.
+Host media and services locally.
+Integrate devices from multiple manufacturers into Apple Home.
+Document configuration decisions, limitations, troubleshooting, and future improvements.
+Maintain a reproducible technical reference for future upgrades.
+
+This repository documents my personal implementation, including practical lessons learned while maintaining a continuously running home server.
+
 ## What it does
 
 - **Storage and backups.** Two repurposed hard drives (4 TB and 2 TB) are shared over Samba. The 4 TB drive holds documents, photos, videos, movies and the family's iPhone backups. The 2 TB drive holds a second copy of the documents, photos and videos.
@@ -64,6 +76,5 @@ Everything runs directly on the host. There are no Docker containers.
 ```
 README.md
 docs/        one document per part of the setup
-examples/    sanitized example configs
 images/      architecture diagram (Graphviz source included) and screenshots
 ```
