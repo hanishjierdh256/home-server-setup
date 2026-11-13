@@ -44,6 +44,16 @@ Everything runs directly on the host. There are no Docker containers.
 | 6× Tapo C320WS cameras | Scrypted, ONVIF Camera plugin and HomeKit plugin |
 | SwitchBot Bot at the car's start button | SwitchBot Hub Mini, then Apple Home |
 
+## Docs
+
+1. [Server and storage](docs/01-server-and-storage.md): the laptop, the two drives, Samba and the backup routine
+2. [Jellyfin](docs/02-jellyfin.md): movie streaming
+3. [Homebridge](docs/03-homebridge.md): eufy and Tuya locks
+4. [Scrypted cameras](docs/04-scrypted-cameras.md): six Tapo cameras in Apple Home
+5. [Matter devices](docs/05-matter-devices.md): dimmers and the garage door
+6. [Car remote start](docs/06-car-remote-start.md): SwitchBot at the start button
+7. [Roadmap and limitations](docs/07-roadmap.md)
+
 ## Security notes
 
 - Jellyfin and Samba are only reachable on the home network. Remote access to the smart home goes through the HomePod hub.
@@ -55,5 +65,5 @@ Everything runs directly on the host. There are no Docker containers.
 README.md
 docs/        one document per part of the setup
 examples/    sanitized example configs
-images/      architecture diagram and screenshots
+images/      architecture diagram (Graphviz source included) and screenshots
 ```
